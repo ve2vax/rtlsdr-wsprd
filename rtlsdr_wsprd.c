@@ -228,6 +228,7 @@ static void rtlsdr_callback(unsigned char *samples, uint32_t samples_count, void
 }
 
 
+
 /* Thread for RX blocking function */
 static void *rtlsdr_rx(void *arg) {
     /* Read & blocking call */
